@@ -1,8 +1,8 @@
 'use client';
 
-import { OrderSummary } from '@/components/checkout/OrderSummary';
-import { ShippingForm } from '@/components/checkout/ShippingForm';
-import { useCart } from '@/global/store/cart.store';
+import { OrderSummary } from '@/features/checkout/OrderSummary';
+import { ShippingForm } from '@/features/checkout/ShippingForm';
+import { useCart } from '@/store/cart.store';
 import { redirect } from 'next/navigation';
 
 export default function CheckoutPage() {

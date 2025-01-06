@@ -1,10 +1,8 @@
-import { FilterSidebar } from '@/components/products/FilterSidebar';
-import { ProductsList } from '@/components/products/ProductsList';
-import { ProductsSkeleton } from '@/components/products/ProductsSkeleton';
-import { SearchAndSort } from '@/components/products/SearchAndSort';
+import { ProductsSkeleton } from '@/features/products/components/ProductsSkeleton';
+import { FilterSidebar } from '@/features/products/FilterSidebar';
+import { ProductsList } from '@/features/products/ProductsList';
+import { SearchAndSort } from '@/features/products/SearchAndSort';
 import { Suspense } from 'react';
-
-export const revalidate = 3600;
 
 type PageProps = {
 	searchParams: Promise<{ [key: string]: string | string[] }>;

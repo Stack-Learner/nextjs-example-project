@@ -1,5 +1,5 @@
-import { Footer } from '@/global/layouts/footer/Footer';
-import { Navbar } from '@/global/layouts/navbar/Navbar';
+import { Footer } from '@/features/layouts/footer/Footer';
+import { Navbar } from '@/features/layouts/navbar/Navbar';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';

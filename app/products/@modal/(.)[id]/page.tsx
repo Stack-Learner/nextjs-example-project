@@ -1,5 +1,5 @@
-import { getProduct } from '@/app/api/products';
-import { ProductQuickView } from '@/components/product/ProductQuickView';
+import { ProductQuickView } from '@/features/product/ProductQuickView';
+import { getProduct } from '@/lib/utils/products';
 import { FC } from 'react';
 
 type ProductDetailsPageProps = {

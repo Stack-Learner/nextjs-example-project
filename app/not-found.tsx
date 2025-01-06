@@ -1,11 +1,9 @@
-import { Button } from '@/global/components/ui/button';
-import { Footer } from '@/global/layouts/footer/Footer';
-import { Navbar } from '@/global/layouts/navbar/Navbar';
+import { Button } from '@/components/ui/button';
+import { Footer } from '@/features/layouts/footer/Footer';
+import { Navbar } from '@/features/layouts/navbar/Navbar';
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense } from 'react';
-
-export const dynamic = 'force-dynamic';
 
 export default function NotFound() {
 	return (

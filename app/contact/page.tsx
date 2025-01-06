@@ -1,6 +1,6 @@
-import { ContactForm } from '@/components/contact/ContactForm';
-import { ContactInfo } from '@/components/contact/ContactInfo';
-import { Faq } from '@/components/contact/Faq';
+import { ContactForm } from '@/features/contact/ContactForm';
+import { ContactInfo } from '@/features/contact/components/ContactInfo';
+import { Faq } from '@/features/contact/components/Faq';
 
 export default function ContactPage() {
 	return (

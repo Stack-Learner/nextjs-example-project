@@ -1,13 +1,9 @@
-import { format } from 'date-fns';
-
 export default function PrivacyPage() {
-	const lastUpdated = format(new Date(), 'MMMM dd, yyyy');
-
 	return (
 		<main className="min-h-screen py-16">
 			<div className="container mx-auto px-4 max-w-4xl">
 				<h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
-				<p className="text-gray-600 mb-8">Last updated: {lastUpdated}</p>
+				<p className="text-gray-600 mb-8">Last updated: January 6, 2024</p>
 
 				<div className="prose prose-gray max-w-none">
 					<section className="mb-8">

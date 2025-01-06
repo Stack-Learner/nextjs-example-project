@@ -1,4 +1,4 @@
-import { ProductPageSkeleton } from '@/components/product-details/ProductPageSkeleton';
+import { ProductPageSkeleton } from '@/features/product-details/components/ProductPageSkeleton';
 
 export default function Loading() {
 	return <ProductPageSkeleton />;

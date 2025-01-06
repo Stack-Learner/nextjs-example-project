@@ -1,10 +1,8 @@
-import { getProduct } from '@/app/api/products';
-import { ProductActions } from '@/components/product-details/ProductActions';
-import { ProductSpecs } from '@/components/product-details/ProductSpecs';
+import { ProductActions } from '@/features/product-details/ProductActions';
+import { ProductSpecs } from '@/features/product-details/components/ProductSpecs';
+import { getProduct } from '@/lib/utils/products';
 import Image from 'next/image';
 import { FC } from 'react';
-
-export const revalidate = 3600;
 
 type ProductDetailsPageProps = {
 	params: Promise<{ id: string }>;
@@ -24,6 +22,7 @@ const ProductDetailsPage: FC<ProductDetailsPageProps> = async ({ params }) => {
 						src={product.image}
 						alt={product.name}
 						fill
+						sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 						className="object-contain"
 						priority
 					/>
