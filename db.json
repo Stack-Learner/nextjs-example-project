@@ -1,0 +1,159 @@
+{
+	"products": [
+		{
+			"id": "prod-1",
+			"name": "iPhone 14 Pro",
+			"brand": "Apple",
+			"price": 999,
+			"description": "A15 Bionic chip, Pro camera system",
+			"longDescription": "The iPhone 14 Pro features...",
+			"specs": {
+				"screen": "6.1-inch Super Retina XDR",
+				"storage": "128GB",
+				"color": "Space Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 10,
+			"isBestSeller": true
+		},
+		{
+			"id": "prod-2",
+			"name": "Galaxy S22 Ultra",
+			"brand": "Samsung",
+			"price": 899,
+			"description": "Exynos 2200 chip, 108MP camera",
+			"longDescription": "The Galaxy S22 Ultra features...",
+			"specs": {
+				"screen": "6.8-inch Dynamic AMOLED",
+				"storage": "256GB",
+				"color": "Phantom Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 5,
+			"isBestSeller": true
+		},
+		{
+			"id": "prod-3",
+			"name": "Pixel 6 Pro",
+			"brand": "Google",
+			"price": 799,
+			"description": "Tensor chip, 50MP camera",
+			"longDescription": "The Pixel 6 Pro features...",
+			"specs": {
+				"screen": "6.7-inch LTPO OLED",
+				"storage": "128GB",
+				"color": "Stormy Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 7
+		},
+		{
+			"id": "prod-4",
+			"name": "Xperia 1 III",
+			"brand": "Sony",
+			"price": 1099,
+			"description": "Snapdragon 888 chip, 12MP camera",
+			"longDescription": "The Xperia 1 III features...",
+			"specs": {
+				"screen": "6.5-inch 4K HDR OLED",
+				"storage": "256GB",
+				"color": "Frosted Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 3
+		},
+		{
+			"id": "prod-5",
+			"name": "Mi 11 Ultra",
+			"brand": "Xiaomi",
+			"price": 699,
+			"description": "Snapdragon 888 chip, 50MP camera",
+			"longDescription": "The Mi 11 Ultra features...",
+			"specs": {
+				"screen": "6.81-inch AMOLED",
+				"storage": "256GB",
+				"color": "Ceramic Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 8,
+			"isFeatured": true,
+			"isBestSeller": true
+		},
+		{
+			"id": "prod-6",
+			"name": "OnePlus 9 Pro",
+			"brand": "OnePlus",
+			"price": 899,
+			"description": "Snapdragon 888 chip, 48MP camera",
+			"longDescription": "The OnePlus 9 Pro features...",
+			"specs": {
+				"screen": "6.7-inch Fluid AMOLED",
+				"storage": "256GB",
+				"color": "Morning Mist"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 6,
+			"isBestSeller": true
+		},
+		{
+			"id": "prod-7",
+			"name": "Find X5 Pro",
+			"brand": "Oppo",
+			"price": 999,
+			"description": "Snapdragon 8 Gen 1 chip, 50MP camera",
+			"longDescription": "The Find X5 Pro features...",
+			"specs": {
+				"screen": "6.7-inch LTPO OLED",
+				"storage": "256GB",
+				"color": "Cosmic Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 4
+		},
+		{
+			"id": "prod-8",
+			"name": "Mate 50 Pro",
+			"brand": "Huawei",
+			"price": 899,
+			"description": "Kirin 9000 chip, 50MP camera",
+			"longDescription": "The Mate 50 Pro features...",
+			"specs": {
+				"screen": "6.8-inch OLED",
+				"storage": "256GB",
+				"color": "Obsidian Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 2
+		},
+		{
+			"id": "prod-9",
+			"name": "Zenfone 8",
+			"brand": "Asus",
+			"price": 699,
+			"description": "Snapdragon 888 chip, 64MP camera",
+			"longDescription": "The Zenfone 8 features...",
+			"specs": {
+				"screen": "5.9-inch AMOLED",
+				"storage": "256GB",
+				"color": "Obsidian Black"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 9
+		},
+		{
+			"id": "prod-10",
+			"name": "Legion Phone Duel 2",
+			"brand": "Lenovo",
+			"price": 999,
+			"description": "Snapdragon 888 chip, 64MP camera",
+			"longDescription": "The Legion Phone Duel 2 features...",
+			"specs": {
+				"screen": "6.92-inch AMOLED",
+				"storage": "256GB",
+				"color": "Titanium White"
+			},
+			"image": "https://images.unsplash.com/photo-1590459963567-1bf6b8595be1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"stock": 1
+		}
+	]
+}
