@@ -1,6 +1,8 @@
 # How to run
 
-- Add the following env variables in .env.local
+- Clone the repository
+- Install all packages by using `pnpm i` command
+- Add the following env variable in your `.env.local`
 
   ```sh
   API_URL=http://localhost:3001
@@ -18,6 +20,7 @@
 
 ## Project Structure
 
+```txt
 .
 ├── app (for routing)
 ├── components (for reusable components)
@@ -34,3 +37,4 @@
 │ └── utils/
 │ └── products.ts
 └── store (zustand store)
+```
