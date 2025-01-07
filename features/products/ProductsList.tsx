@@ -1,5 +1,5 @@
 import { EmptyList } from '@/components/empty-list/EmptyList';
-import { ProductCard } from '@/features/product/components/ProductCard';
+import { ProductCard } from '@/features/product/ProductCard';
 import { getProducts } from '@/lib/utils/products';
 
 type ProductsListProps = {

@@ -1,7 +1,7 @@
 import { Product } from '@/lib/types';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ProductCardActions } from '../ProductCardActions';
+import { ProductCardActions } from './ProductCardActions';
 
 type ProductCardProps = {
 	product: Product;
