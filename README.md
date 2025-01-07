@@ -38,3 +38,7 @@
 │ └── products.ts
 └── store (zustand store)
 ```
+
+## Project Architecture
+
+[Click Here](./project-architecture.md)
